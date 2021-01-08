@@ -28,6 +28,17 @@ Nowadays, there are many ways of building data science models using Python, incl
 6. Model checking and prediction
     - Does my GP work as advertised? What can I do with it?
 
+## Notebooks
+
+1. [Spawning Salmon](notebooks/spawning_salmon.md)
+    - A simple example.
+2. [Mining Disasters](notebooks/mining_disasters.md)
+    - A Poisson distribution with a GP.
+3. [Marathon Times](notebooks/marathon_times.md)
+    - An example of using a sparse approximation for fitting a Gaussian process when you have a lot of data.
+4. [Geological Survey](notebooks/multidimensional_gp.md)
+    - Including multiple dimensions in a GP.
+
 ## Setup
 
 This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribution/#download-section) (Python 3.6 or greater) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceding with the setup.
