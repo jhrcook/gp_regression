@@ -1,4 +1,4 @@
-# A Primer on Gaussian Processes for Regression Analysis 
+# A Primer on Gaussian Processes for Regression Analysis
 
 **PyData NYC 2019**
 
@@ -14,11 +14,11 @@ Nowadays, there are many ways of building data science models using Python, incl
 
 ## Outline
 
-1. Regression models: the basics 
+1. Regression models: the basics
     - What’s the usual approach to regression, and what are its limitations?
 2. Introduction to probabilistic modeling
     - How can you model complex things using a Gaussian (normal) distributions?
-3. What is a Gaussian process? 
+3. What is a Gaussian process?
     - An overview of the features and properties of Gaussian processes.
 4. Building Gaussian process models
     - Selecting your covariance function to suit your problem.
@@ -34,17 +34,19 @@ This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribu
 The next step is to clone or download the tutorial materials in this repository. If you are familiar with Git, run the clone command:
 
     git clone https://github.com/fonnesbeck/gp_regression.git
-    
+
 otherwise you can [download a zip file](https://github.com/fonnesbeck/gp_regression/archive/master.zip) of its contents, and unzip it on your computer.
-***
+
+---
+
 The repository for this tutorial contains a file called `environment.yml` that includes a list of all the packages used for the tutorial. If you run:
 
     conda env create
-    
+
 from the main tutorial directory, it will create the environment for you and install all of the packages listed. This environment can be enabled using:
 
     conda activate gp_tutorial
-    
+
 Then, you can start **JupyterLab** to access the materials:
 
     jupyter lab

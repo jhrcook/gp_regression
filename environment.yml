@@ -24,5 +24,4 @@ dependencies:
   - setuptools
   - theano
   - xlrd
-  - pip:
-    - arviz
+  - arviz
