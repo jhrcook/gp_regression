@@ -1,27 +1,34 @@
-name: gp_tutorial
-
+name: gp_regression
+channels:
+  - defaults
 dependencies:
-  - python=3.7
-  - ipython
-  - ipywidgets
-  - jupyter_client
-  - jupyter_core
-  - jupyterlab
-  - lxml
-  - matplotlib
-  - mkl-service
-  - notebook
-  - numpy=1.16
   - pandas
-  - patsy
-  - pip
-  - pymc3
-  - pydot
+  - jupyter_client
+  - mkl-service
   - python-graphviz
-  - scikit-learn
-  - scipy
-  - seaborn
   - setuptools
-  - theano
+  - jupyter_core
+  - seaborn
   - xlrd
   - arviz
+  - numpy=1.16
+  - lxml
+  - scikit-learn
+  - matplotlib
+  - ipython
+  - ipywidgets
+  - pydot
+  - patsy
+  - notebook
+  - jupyterlab
+  - pymc3
+  - scipy
+  - theano
+  - python=3.7
+  - pip
+  - pre-commit
+  - black
+  - jupyterlab_code_formatter
+  - isort
+  - nodejs
+prefix: /usr/local/Caskroom/miniconda/base/envs/gp_regression

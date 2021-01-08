@@ -3,6 +3,7 @@
 **PyData NYC 2019**
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fonnesbeck/gp_regression/master)
+[![YouTube](https://img.shields.io/badge/YouTube-Lecture-FF0000.svg?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=xBE8qdAAj3w)
 
 ## Description
 
